@@ -255,6 +255,7 @@ ALLOWED_EXTENSIONS = set(['csv'])
 # note: index option should not be overridden
 CSV_EXPORT = {
     'encoding': 'utf-8',
+    'quoting': 1,
 }
 
 # ---------------------------------------------------
